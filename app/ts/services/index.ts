@@ -1,0 +1,1 @@
+export { NegociacaoService, ManipuladorFuncao } from './NegociacaoService';

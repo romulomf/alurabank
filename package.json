@@ -1,0 +1,21 @@
+{
+  "name": "alurabank",
+  "version": "0.1.0",
+  "description": "projeto do curso de typescript da alura",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc",
+    "watch": "tsc -w",
+    "server": "lite-server --baseDir=app",
+	"start": "concurrently \"npm run watch\" \"npm run server\""
+  },
+  "author": "Rômulo Machado Flores <romuloflores@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jquery": "^3.5.5",
+    "concurrently": "^6.0.0",
+    "lite-server": "^2.6.1",
+    "typescript": "^4.2.2"
+  }
+}

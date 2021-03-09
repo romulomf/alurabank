@@ -1,0 +1,1 @@
+export { imprimir } from './utils';
